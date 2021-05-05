@@ -8,6 +8,7 @@ class BinaryTree:
 def invertBinaryTree(tree):
 	if tree is None:
 		return
+
     left = tree.left
 	right = tree.right
 	tree.left = right

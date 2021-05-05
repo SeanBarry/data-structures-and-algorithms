@@ -1,7 +1,8 @@
 #include <vector>
 using namespace std;
 
-class BinaryTree {
+class BinaryTree
+{
 public:
   int value;
   BinaryTree *left;
@@ -12,12 +13,14 @@ public:
   void invertedInsert(vector<int> values, int i = 0);
 };
 
-void invertBinaryTree(BinaryTree *tree) {
-	if (tree == nullptr) {
-		return;
-	}
-	
-	swap(tree->left, tree->right);
-	invertBinaryTree(tree->left);
-	invertBinaryTree(tree->right);
+void invertBinaryTree(BinaryTree *tree)
+{
+  if (tree == nullptr)
+  {
+    return;
+  }
+
+  swap(tree->left, tree->right);
+  invertBinaryTree(tree->left);
+  invertBinaryTree(tree->right);
 }
