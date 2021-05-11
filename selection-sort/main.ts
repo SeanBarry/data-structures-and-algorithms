@@ -22,3 +22,5 @@ const selectionSort = (array: number[]) => {
 
   return array;
 };
+
+export {};

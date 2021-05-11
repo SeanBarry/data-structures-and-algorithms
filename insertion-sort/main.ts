@@ -16,3 +16,5 @@ const insertionSort = (array: number[]) => {
 
   return array;
 };
+
+export {};

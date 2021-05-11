@@ -12,3 +12,5 @@ export function isValidSubsequence(array: number[], sequence: number[]) {
   }
   return false;
 }
+
+export {};

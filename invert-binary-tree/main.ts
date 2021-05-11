@@ -29,3 +29,5 @@ export const invertBinaryTree = (tree: BinaryTree | null) => {
   invertBinaryTree(tree.right);
   invertBinaryTree(tree.left);
 };
+
+export {};
