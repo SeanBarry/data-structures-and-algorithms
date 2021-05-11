@@ -1,10 +1,10 @@
-const swap = (i, j, array) => {
+const swap = (i: number, j: number, array: number[]) => {
   let temp = array[j];
   array[j] = array[i];
   array[i] = temp;
 };
 
-const insertionSort = (array) => {
+const insertionSort = (array: number[]) => {
   for (let i = 1; i < array.length; i++) {
     let j = i;
 
@@ -16,6 +16,3 @@ const insertionSort = (array) => {
 
   return array;
 };
-
-// fix ts export bugs
-export {};
