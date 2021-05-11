@@ -1,10 +1,10 @@
-const swap = (i, j, array) => {
+const swap = (i: number, j: number, array: number[]) => {
   let temp = array[j];
   array[j] = array[i];
   array[i] = temp;
 };
 
-const selectionSort = (array) => {
+const selectionSort = (array: number[]) => {
   let currentIdx = 0;
 
   while (currentIdx < array.length - 1) {
@@ -22,6 +22,3 @@ const selectionSort = (array) => {
 
   return array;
 };
-
-// fix ts export bugs
-export {};
