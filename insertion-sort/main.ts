@@ -16,3 +16,6 @@ const insertionSort = (array) => {
 
   return array;
 };
+
+// fix ts export bugs
+export {};
