@@ -8,11 +8,11 @@ bool isValidSubsequence(vector<int> array, vector<int> sequence)
 	int current = 0;
 
 	// iterate over the array
-	for (int value : array)
+	for (int i = 0; i < array.size(); i++)
 	{
 		// if the current character is equal to the character
 		// in the sequence that is being tested, increment the counter
-		if (sequence[current] == value)
+		if (sequence[current] == array[i])
 		{
 			current++;
 		}
