@@ -2,4 +2,4 @@
 
 This repository is my collection of notes about and answers to popular algorithm questions.
 
-I'll aim to write solutions in both Python, TypeScript and C++.
+I'll aim to write solutions in Python, TypeScript and C++.
