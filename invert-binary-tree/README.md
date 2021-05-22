@@ -1,8 +1,12 @@
-# Space Time Complexity
+# Invert Binary Tree
+
+## Space Time Complexity
 
 **Average** O(N) time | O(d) space where d is depth
 
 ---
+
+## Task
 
 Write a function that takes in a Binary Tree and inverts it. In other words the function should swap every left node in the tree for its corresponding right node.
 

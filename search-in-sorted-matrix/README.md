@@ -1,4 +1,6 @@
-# Space Time Complexity
+# Search In Sorted Matrix
+
+## Space Time Complexity
 
 **Average** O(n + m) time | O(1) space
 
@@ -9,6 +11,8 @@ n is the number of rows in the matrix
 m is the number of columns in the matrix
 
 ---
+
+## Task
 
 You're given a two-dimensional array (a matrix) of distinct integers and a target integer. Each row in the matrix is sorted, and each column is also sorted; the matrix doesn't necessarily have the same height and width.
 

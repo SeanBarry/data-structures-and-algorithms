@@ -1,8 +1,12 @@
-# Space Time Complexity
+# Monotonic Array
+
+## Space Time Complexity
 
 **Average** O(N) time | O(1) space
 
 ---
+
+## Task
 
 Write a function that takes in an array of integers and returns a boolean representing whether the array is monotonic.
 

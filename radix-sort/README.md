@@ -1,4 +1,6 @@
-# Space Time Complexity
+# Radix Sort
+
+## Space Time Complexity
 
 **Average** O(d \* (n + b)) time | O(n + b) space
 
@@ -11,6 +13,8 @@ b is the base of the numbering system used
 d is the max number of digits (e.g. biggest value in array is 53645 - 5 digits)
 
 ---
+
+## Task
 
 Write a function that takes in an array of integers and returns a sorted version of that array. Use the Radix Sort algorithm to sort the array.
 

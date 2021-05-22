@@ -1,4 +1,6 @@
-# Space Time Complexity
+# Insertion Sort
+
+## Space Time Complexity
 
 **Best** O(N) time | O(1) space
 
@@ -7,6 +9,8 @@
 **Worst** O(N^2) time | O(1) space
 
 ---
+
+## Task
 
 Write a function that takes in an array of integers and returns a sorted version of that array. Use the Insertion Sort algorithm to sort the array.
 

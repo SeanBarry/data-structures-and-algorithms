@@ -1,8 +1,12 @@
-# Space Time Complexity
+# Valid Subsequence
+
+## Space Time Complexity
 
 **Average** O(N) time | O(1) space
 
 ---
+
+## Task
 
 Given two non-empty arrays of integers, write a function that determines whether the second array is a subsequence of the first one.
 

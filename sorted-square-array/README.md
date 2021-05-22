@@ -1,4 +1,6 @@
-# Space Time Complexity
+# Sorted Square Array
+
+## Space Time Complexity
 
 **Average** O(N) time | O(N) space
 
@@ -7,6 +9,8 @@ where:
 N is the length of the input array
 
 ---
+
+## Task
 
 Write a function that takes in a non-empty array of integers that are sorted in ascending order and returns a new array of the same length with the squares of the original integers also sorted in ascending order.
 
