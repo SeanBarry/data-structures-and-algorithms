@@ -6,15 +6,18 @@ class BinaryTree:
 
 
 def invertBinaryTree(tree):
+	# if there is no tree, don't go any further
 	if tree is None:
-		return
+		return None
 
-    left = tree.left
-	right = tree.right
-	tree.left = right
-	tree.right = left
+	# swap the children
+	temp = tree.left
+	tree.left = tree.right
+	tree.right = temp
 	
+	# recursively call the method on the children
 	invertBinaryTree(tree.right)
 	invertBinaryTree(tree.left)
 
-
+	# be sure to return the tree
+	return tree
