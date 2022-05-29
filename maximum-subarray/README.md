@@ -1,47 +1,37 @@
-# Min Max Stack Construction
+# Maximum Subarray
 
 ## Space Time Complexity
 
-All operations should be O(1) time | O(1) space
-
-The space usage of the stack itself is O(n)
+O(N) time | O(1) space
 
 ---
 
 ## Task
 
-Write a `MinMaxStack` class for a Min Max Stack. The class should support:
+Given an integer array `nums`, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 
-    - Pushing and popping values on and off the stack.
-
-    - Peeking at the value at the top of the stack.
-
-    - Getting both the minimum and the maximum values in the stack at any given
-    point in time.
-
-All class methods, when considered independently, should run in constant time
-and with constant space.
+A subarray is a contiguous part of an array.
 
 Sample input:
 
 ```
-// All operations below are performed sequentially
-MinMaxStack()
-push: -
-getMin: 5
-getMax: 5
-peek: 5
-push: -
-getMin: 5
-getMax: 7
-peek: 7
-push: -
-getMin: 2
-getMax: 7
-peek: 2
-pop: 2
-pop: 7
-getMin: 5
-getMax: 5
-peek: 5
+nums = [-2,1,-3,4,-1,2,1,-5,4]
+```
+
+Sample Output:
+
+```
+[4,-1,2,1] has the largest sum = 6.
+```
+
+Sample input 2:
+
+```
+nums = [1]
+```
+
+Sample Output 2:
+
+```
+1
 ```
